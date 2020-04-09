@@ -28,11 +28,13 @@ Becasue there's tons of articles or tutorials explained how internet work, so on
 	```
 
 3. What is the subnet of an IP with Netmask<br>
-	subnetting allow you to connect multiple devices under same network ID. The number of host in each subnet mask shown as below chart(Origin: [subnetting is simple](https://youtu.be/ecCuyq-Wprc)): <br>
-	<img src="https://github.com/pootitan/42_netwhat/blob/master/subnetting_table.png" height="100%" width="100%"><br>
+	Subnetting allow you to connect multiple devices under same network ID. The number of host in each subnet mask shown as below chart(Origin: [subnetting is simple](https://youtu.be/ecCuyq-Wprc)): <br>
+	<img src="https://github.com/pootitan/42_netwhat/blob/master/subnetting_table.png" height="75%" width="75%"><br>
+	For example, if we want to divide 4 subnets under current network id, each subnet would allow 64 - 2 = 62 host at the same time.
+	<img src="https://github.com/pootitan/42_netwhat/blob/master/subnet_4.png" height="75%" width="75%"><br>
 	```
 	204.17.5.0 -      11001100.00010001.00000101.00000000
-	255.255.255.224 - 11111111.11111111.11111111.11100000
+	255.255.255.224 - 11111111.11111111.11111111.11110000
     	          --------------------------|sub|----
 	```
 	
